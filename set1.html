@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        const arr = ["karunakar","hemanth","chaitanya","anusha","harika","chandhana"];
+        const rem = new Set(arr)
+
+        rem.add("john");
+        console.log(rem);
+        console.log(rem.has("karunakar"));
+        console.log(rem.size);
+        console.log(rem.delete("chaitanya"));
+        console.log(rem.size)
+    </script>
+</body>
+</html>
